@@ -1,0 +1,37 @@
+Evento(T, country, quantità di persone)
+
+ Evento(1, Italia, 1000)
+ 	500 diventano stanziali in italia
+ 	4 confinanti --> 125 persone per stato confinante
+ 	crea eventi di ingresso
+  messi in coda
+  	
+  Evento(2, Francia, 125)
+      62 diventano stanziali in Francia
+      63 si dividono in 5 stati confinanti: 12 per stato , 3 stanziali(resto della divisione)
+       
+  Evento(2, Svizzera, 125)
+  	  62 diventano stanziali in Svizzera
+  	  63 si dividono in 4 stati confinanti: 15 per stato, 3 stanziali
+  	  
+  Evento(2, Austria, 125)
+  Evento(2, Slovenia, 125)
+    
+    Evento(3, Spagna, 12) //F
+    Evento(3, Italia, 12) //F
+    Evento(3, belgio, 12) //F
+    Evento(3, Germania, 12) //F
+    Evento(3, Olanda, 12) //F
+    Evento(3, Italia, 15) //S
+    Evento(3, Francia, 15) //S
+    Evento(3, Germania, 15) //S
+    Evento(3, Austria, 12) //S
+    
+All'evento 3 però vedo che arrivano sia dalla francia che dalla svizzera 
+ecc, cosa faccio? inizio a smistarli o aspetto che arrivino tutti?
+
+    
+    
+  
+  
+  
